@@ -332,6 +332,31 @@ OPT_ONLY_FILES = [
     ["52_Data 120.axgd", 5208]
 ]
 
+VC_INACTIVATION_FILES = [
+    ["67_Data 021.axgd", 6702, "Laser", -80],
+    ["67_Data 022.axgd", 6702, "No Laser", -80],
+    ["67_Data 039.axgd", 6703, "Laser", -80],
+    ["67_Data 040.axgd", 6703, "Laser", -60],
+    ["67_Data 041.axgd", 6703, "No Laser", -60],
+    ["67_Data 043.axgd", 6704, "Laser", -40],
+    ["67_Data 044.axgd", 6704, "No Laser", -40],
+    ["67_Data 045.axgd", 6704, "No Laser", -20],
+    ["67_Data 046.axgd", 6704, "Laser", -20],
+    ["67_Data 047.axgd", 6704, "Laser", 20],
+    ["67_Data 048.axgd", 6704, "No Laser", 20],
+    ["67_Data 049.axgd", 6704, "No Laser", 40],
+    ["67_Data 050.axgd", 6704, "Laser", 40],
+    ["67_Data 051.axgd", 6704, "Laser", -20],
+    ["67_Data 052.axgd", 6704, "Laser", 0],
+    ["67_Data 053.axgd", 6704, "No Laser", 0],
+    ["67_Data 054.axgd", 6704, "No Laser", -20],
+    ["67_Data 055.axgd", 6704, "No Laser", -40],
+    ["67_Data 056.axgd", 6704, "Laser", -40],
+    ["67_Data 057.axgd", 6704, "Laser", -40],
+    ["67_Data 069.axgd", 6705, "Laser", -40],
+    ["67_Data 070.axgd", 6705, "No Laser", -40],
+]
+
 # cells used for costim single pulse protocol
 CELLS = [
     [8, 1750, 150, 4404],
