@@ -27,7 +27,8 @@ the environment used, while a full list of packages is in `environment.yml`.
 Download the data files from
 https://web.gin.g-node.org/willhart/sgn_costimulation. Set the variable
 `BASE_PATH` in the `scripts/definitions.py` file to point to your data
-directory.
+directory. Do the same changes for `pulse_trains/scripts/definitions.py`. The
+default is the `/Data` directory.
 
 ### Run analysis
 
