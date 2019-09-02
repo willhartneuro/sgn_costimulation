@@ -16,7 +16,22 @@ https://web.gin.g-node.org/willhart/sgn_costimulation
 
 ## Running
 
+### Setup environment
+
+The anaconda Python environment was used for analysis. The
+`conda_env_settings.txt` file gives command line instructions for duplicating
+the environment used, while a full list of packages is in `environment.yml`.
+
+### Download data
+
+Download the data files from
+https://web.gin.g-node.org/willhart/sgn_costimulation. Set the variable
+`BASE_PATH` in the `scripts/definitions.py` file to point to your data
+directory.
+
+### Run analysis
+
 The analysis can be run by executing `jupyter lab` in the terminal and opening
 and running the `main` notebook. The first time the code is executed the
-analysis will be saved to a pickled file. Subsequent executions can load from
-the pickled file or can be re-run by setting `force_build_pickle = True`.
+analysis will be saved to a pickled file. Subsequently the data can be rebuilt
+by commenting out the relevant `%run` magic cells.

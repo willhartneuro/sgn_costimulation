@@ -109,3 +109,5 @@ Docs/
 .~*.ipynb
 *.csv
 data.pickle
+Data/
+nb.bat

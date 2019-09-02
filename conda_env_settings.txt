@@ -1,0 +1,3 @@
+conda create -n costim python=3.7 numpy scipy statsmodels pandas matplotlib seaborn bottleneck jupyterlab pip pillow
+conda activate costim
+pip install axographio quantities
