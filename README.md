@@ -35,3 +35,7 @@ The analysis can be run by executing `jupyter lab` in the terminal and opening
 and running the `main` notebook. The first time the code is executed the
 analysis will be saved to a pickled file. Subsequently the data can be rebuilt
 by commenting out the relevant `%run` magic cells.
+
+Pulse train data is included in a separate `pulse_trains` data within the code
+directory. There is a fair bit of code duplication here but there are enough
+differences to make integrating the two code-bases problematic.
