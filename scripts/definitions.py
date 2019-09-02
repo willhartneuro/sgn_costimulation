@@ -7,7 +7,7 @@ from protocol import Protocol
 #
 # The location of files
 #
-BASE_PATH = "../Papers/001 Costim letter/Data" # the files are stored in the parent directory
+BASE_PATH = "/Data" # the files are stored in the parent directory
 
 #
 # DATA INDICES INTO FILES.PY

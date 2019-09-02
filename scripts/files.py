@@ -357,6 +357,36 @@ VC_INACTIVATION_FILES = [
     ["67_Data 070.axgd", 6705, "No Laser", -40],
 ]
 
+DVDT_FILES = [
+    ["67_Data 008.axgd", 1.5, 10, 20, 1],
+    ["67_Data 009.axgd", 1.5, 10, 20, 2],
+    ["67_Data 010.axgd", 1.5, 10, 20, 3],
+    ["67_Data 011.axgd", 1.3, 10, 20, 3],
+    ["67_Data 012.axgd", 1.1, 10, 20, 3],
+
+    ["67_Data 019.axgd", 1.1, 10, 20, 3],
+    ["67_Data 020.axgd", 1.1, 50, 20, 3],
+
+    ["67_Data 063.axgd", 1.25, 50, 20, 3],
+    ["67_Data 064.axgd", 1.0, 50, 20, 5],
+    ["67_Data 065.axgd", 0.75, 50, 20, 5],
+    ["67_Data 066.axgd", 0.375, 50, 20, 5],
+    ["67_Data 067.axgd", 0.5, 50, 20, 5],
+
+    ["67_Data 079.axgd", 0.7, 50, 20, 5],
+    ["67_Data 081.axgd", 0.65, 50, 20, 5],
+    ["67_Data 082.axgd", 0.65, 50, 20, 5],
+    ["67_Data 083.axgd", 0.6, 50, 20, 5],
+    ["67_Data 084.axgd", 0.5, 50, 20, 5],
+
+    ["67_Data 098.axgd", 2, 50, 20, 5], # this current doesn't make sense
+
+    ["67_Data 104.axgd", 0.79, 50, 20, 2],
+    ["67_Data 105.axgd", 0.63, 50, 20, 5],
+    ["67_Data 106.axgd", 0.53, 50, 20, 2],
+    ["67_Data 107.axgd", 0.5, 50, 20, 2],
+]
+
 # cells used for costim single pulse protocol
 CELLS = [
     [8, 1750, 150, 4404],
